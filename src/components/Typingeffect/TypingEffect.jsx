@@ -1,3 +1,4 @@
+import "./TypingEffect.css"
 import { TypeAnimation } from 'react-type-animation';
 
 export default function TypingEffect() {
@@ -11,8 +12,8 @@ export default function TypingEffect() {
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '1.5rem', display: 'inline-block' }}
       repeat={Infinity}
+      className='typing-effect'
     />
   );
 }

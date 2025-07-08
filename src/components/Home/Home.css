@@ -1,3 +1,6 @@
-.home-image {
-    height: 500px;
+@media screen and (max-width: 500px) {
+    .home-image {
+    height: 400px;
+    margin-top: 2rem;
+}
 }
