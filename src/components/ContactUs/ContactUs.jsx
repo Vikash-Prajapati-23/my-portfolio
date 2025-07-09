@@ -4,9 +4,7 @@ function ContactUs() {
   const [loading, setLoading] = useState(false);
 
   const handleSave = () => {
-    // Backend pending...!
     setLoading(true);
-    // toast("Form Submitted.");
     setTimeout(() => {
       setLoading(false);
     }, 3000);
@@ -27,34 +25,37 @@ function ContactUs() {
         <div className="px-0 md:px-24 lg:px-40 my-10">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
             <div className="cols-span-1 md:order-1 order-2">
-              <form onSubmit={handleSave} className="space-y-5 grid ">
+              <form action="https://formsubmit.co/vikashprajapati1095@gmail.com" method="POST" onSubmit={handleSave} className="space-y-5 grid ">
                 <div className="cols-span-1 flex flex-col md:w-full w-[280px] mx-auto">
                   <label>Your Name</label>
                   <input
                     type="text"
+                    name="name"
                     required={true}
                     placeholder="Name"
-                    className=" text-white border-1 p-1 rounded"
+                    className=" text-white border-1 p-1 px-2 rounded"
                   ></input>
                 </div>
                 <div className="cols-span-1 flex flex-col md:w-full w-[280px] mx-auto">
                   <label>Email</label>
                   <input
-                    type="text"
+                    type="email"
+                    name="email"
                     required={true}
                     placeholder="Email"
-                    className=" text-white border-1 p-1 rounded"
+                    className=" text-white border-1 p-1 px-2 rounded"
                   ></input>
                 </div>
                 <textarea
                   className="  md:w-full w-[280px] mx-auto border-[1px] p-2 border-grey-200 rounded-md"
                   placeholder="Type your message..."
                   rows="6"
+                  name="message"
                 ></textarea>
                 <button
                   variant="outline"
                   disabled={loading}
-                  className="bg-blue-400 md:w-24 w-[280px] md:mx-0 mx-auto md:px-0 font-semibold text-lg text-white rounded-3xl my-3"
+                  className="bg-blue-400 md:w-24 w-[280px] md:mx-0 mx-auto md:px-0 py-1 font-semibold cursor-pointer text-lg text-white rounded-2xl my-3"
                   aria-label="Submit Form"
                 >
                   {loading ? "Loading..." : "Submit"}
@@ -73,7 +74,7 @@ function ContactUs() {
                 <div className="space-y-5 mt-5">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 flex justify-center items-center bg-blue-300 rounded-full">
-                      {/* <Mail className="w-5 h-5 text-gray-700" /> */}
+                      <i class="fa-solid fa-envelope text-2xl text-gray-700"></i>
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold mb-1">Email</h3>
@@ -82,7 +83,7 @@ function ContactUs() {
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 flex justify-center items-center bg-blue-300 rounded-full">
-                      {/* <Phone className="w-5 h-5 text-gray-700" /> */}
+                      <i class="fa-solid fa-phone text-2xl text-gray-700"></i>
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold mb-1">Phone</h3>
