@@ -2,12 +2,6 @@ import "./About.css";
 import about_Image from "../../assets/about_me_img.webp";
 
 const About = () => {
-  const handleDownloadResume = () => {
-    const link = document.getElementById("button a");
-    link.download = "Vikash_resume.pdf";
-    link.click();
-  }
-
   return (
     <section id="about" className="h-screen flex justify-center items-center">
       <div className="about-content">
@@ -40,15 +34,16 @@ const About = () => {
         </div>
 
         <div className="btn-position text-center border-2 rounded border-amber-600">
-          <button onClick={handleDownloadResume} className="text-white font-semibold cursor-pointer resume-btn">
-            <a
-              target="_blank"
-              href="/Vikash_resume_july_2025.pdf"
-              rel="noopener noreferrer"
-            >
-              My Resume
-            </a>
-          </button>
+          <a
+            id="download_btn"
+            href="/Vikash_resume_july_2025.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download="Vikash_Resume.pdf"
+            className="text-white font-semibold cursor-pointer resume-btn inline-block w-full h-full py-2 px-4"
+          >
+            My Resume
+          </a>
         </div>
       </div>
     </section>
