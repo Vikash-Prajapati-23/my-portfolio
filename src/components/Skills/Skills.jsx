@@ -12,7 +12,7 @@ const Skills = () => {
           Skills
         </h3>
 
-        <div className="grid lg:grid-cols-10 md:grid-cols-6 grid-cols-4 lg:mx-24 md:mx-16 md:my-10 my-5 flex-wrap md:gap-10 gap-x-10 gap-y-4 md:text-center mx-5">
+        <div className="grid lg:grid-cols-8 md:grid-cols-6 grid-cols-4 lg:mx-24 md:mx-16 md:my-10 my-5 flex-wrap md:gap-10 gap-x-10 gap-y-4 md:text-center mx-5">
           {/* HTML */}
           <div className="">
             <div className="md:h-20 h-12 md:w-20 w-12 border-2 p-2 border-amber-600 rounded flex justify-center items-center">
@@ -143,12 +143,12 @@ const Skills = () => {
         </div>
       </div>
 
-      <div>
+      <div className="">
         <h3 className="text-white md:text-4xl text-2xl text-center font-semibold md:mb-14 mb:8">
           Tools & software
         </h3>
 
-        <div className="grid lg:grid-cols-10 md:grid-cols-6 grid-cols-4 lg:mx-24 md:mx-16 my-10 flex-wrap md:gap-10 md:text-center gap-x-10 gap-y-4 mx-5">
+        <div className="grid lg:grid-cols-8 md:grid-cols-6 grid-cols-4 lg:mx-24 md:mx-16 my-10 flex-wrap md:gap-10 md:text-center gap-x-10 gap-y-4 mx-5">
           {/* Chrome */}
           <div className="">
             <div className="md:h-20 h-12 md:w-20 w-12 border-2 p-2 border-amber-600 rounded flex justify-center items-center">

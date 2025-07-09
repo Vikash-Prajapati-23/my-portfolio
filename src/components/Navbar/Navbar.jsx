@@ -38,27 +38,24 @@ const Navbar = () => {
         <div className="flex justify-center md:text-2xl text-sm items-center md:gap-10 gap-5 w-[50%]">
           <a
             href="#about"
-            // smooth={true}
-            // duration={500}
-            // offset={-50}
             className="cursor-pointer"
           >
             About
           </a>
           <a
             href="#skills"
-            // smooth={true}
-            // duration={500}
-            // offset={-50}
             className="cursor-pointer"
           >
             Skils
           </a>
           <a
             href="#projects"
-            // smooth={true}
-            // duration={500}
-            // offset={-50}
+            className="cursor-pointer"
+          >
+            Projects
+          </a>
+          <a
+            href="#contactus"
             className="cursor-pointer"
           >
             Projects
@@ -87,6 +84,13 @@ const Navbar = () => {
             href="#projects"
           >
             Projects
+          </a>
+          <a
+            onClick={() => setIsOpen(false)}
+            className="cursor-pointer"
+            href="#contactus"
+          >
+            Contact Us
           </a>
         </ul>
       )}
