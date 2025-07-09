@@ -37,6 +37,7 @@
   padding: 0.2rem 0.5rem;
   transition: 0.3s ease-in-out;
 }
+
 .resume-btn:hover {
   font-size: larger;
 }
@@ -66,13 +67,17 @@
     bottom: -10%;
     left: 40%;
   }
+
+  .resume-btn:hover {
+    font-size:medium;
+  }
 }
 
 @media screen and (max-width: 380px) {
   .about-para::after {
     width: 85%;
   }
-  
+
   .btn-position {
     left: 35%;
   }

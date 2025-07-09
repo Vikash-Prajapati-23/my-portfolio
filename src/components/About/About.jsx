@@ -2,6 +2,12 @@ import "./About.css";
 import about_Image from "../../assets/about_me_img.webp";
 
 const About = () => {
+  const handleDownloadResume = () => {
+    const link = document.getElementById("button a");
+    link.download = "Vikash_resume.pdf";
+    link.click();
+  }
+
   return (
     <section id="about" className="h-screen flex justify-center items-center">
       <div className="about-content">
@@ -17,7 +23,9 @@ const About = () => {
           <div className="text-white p-0 lg:w-[600px] md:w-[350px] flex items-center">
             <div className="flex">
               <div className="about-para md:text-base text-sm md:p-0 p-7 text-justify ">
-                <h4 className="md:text-2xl text-xl">I'm Vikash Kumar Prajapati.</h4>
+                <h4 className="md:text-2xl text-xl">
+                  I'm Vikash Kumar Prajapati.
+                </h4>
                 <p>
                   I'm a self-taught MERN stack developer who loves turning ideas
                   into real web apps. I’ve built projects like Shop-sphere
@@ -32,8 +40,14 @@ const About = () => {
         </div>
 
         <div className="btn-position text-center border-2 rounded border-amber-600">
-          <button className="text-white font-semibold cursor-pointer resume-btn">
-            My Resume
+          <button onClick={handleDownloadResume} className="text-white font-semibold cursor-pointer resume-btn">
+            <a
+              target="_blank"
+              href="/Vikash_resume_july_2025.pdf"
+              rel="noopener noreferrer"
+            >
+              My Resume
+            </a>
           </button>
         </div>
       </div>

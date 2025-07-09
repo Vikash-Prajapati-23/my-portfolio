@@ -62,7 +62,7 @@ const Navbar = () => {
             Projects
           </a>
           <a href="#contactus" className="cursor-pointer">
-            Projects
+            Contact
           </a>
         </div>
       )}
