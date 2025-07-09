@@ -138,7 +138,22 @@ const Skills = () => {
                 className="w-12 h-12"
               />
             </div>
-            <div className="text-white md:w-20 w-12 text-xs text-center">Tailwind CSS</div>
+            <div className="text-white md:w-20 w-12 text-xs text-center">
+              Tailwind CSS
+            </div>
+          </div>
+
+          {/* Bootstrap */}
+          <div className="">
+            <div className="md:h-20 h-12 md:w-20 w-12 border-2 p-2 border-purple-500 rounded flex items-center justify-center">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+                alt="Bootstrap"
+              />
+            </div>
+            <div className="text-white md:w-20 w-12 text-xs text-center">
+              Bootstrap
+            </div>
           </div>
         </div>
       </div>
@@ -192,7 +207,7 @@ const Skills = () => {
               />
             </div>
             <div className="text-white text-xs md:w-20 w-12 text-center">
-              MongoDB 
+              MongoDB
             </div>
           </div>
 
@@ -228,6 +243,32 @@ const Skills = () => {
             </div>
             <div className="text-white md:w-20 w-12 text-xs">
               GitHub Copilot
+            </div>
+          </div>
+          
+          {/* Vercel */}
+          <div className="">
+            <div className="md:h-20 h-12 md:w-20 w-12 border-2 p-2 border-white rounded flex items-center justify-center">
+              <img
+                src="https://assets.vercel.com/image/upload/front/favicon/vercel/favicon.ico"
+                alt="Vercel"
+              />
+            </div>
+            <div className="text-white md:w-20 w-12 text-xs text-center">
+              Vercel
+            </div>
+          </div>
+          
+          {/* Render */}
+          <div className="">
+            <div className="md:h-20 h-12 md:w-20 w-12 border-2 p-2 border-cyan-400 rounded flex items-center justify-center">
+              <img
+                src="https://avatars.githubusercontent.com/u/44713215?s=200&v=4"
+                alt="Render"
+              />
+            </div>
+            <div className="text-white md:w-20 w-12 text-xs text-center">
+              Render
             </div>
           </div>
         </div>
