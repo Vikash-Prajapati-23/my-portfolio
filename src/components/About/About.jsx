@@ -3,7 +3,7 @@ import about_Image from "../../assets/about_me_img.webp";
 
 const About = () => {
   return (
-    <section className="h-screen flex justify-center items-center ">
+    <section id="about" className="h-screen flex justify-center items-center ">
       <div className="about-content">
         <h3 className="text-white font-bold text-center lg:text-4xl md:text-3xl text-2xl mb-10">
           About <span className="border-b-2 border-amber-600">Me</span>

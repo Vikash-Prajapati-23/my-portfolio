@@ -4,7 +4,7 @@ import homeMAnImage from "../../assets/man_working.png"
 
 const Home = () => {
   return (
-    <div className="flex h-screen text-white relative ">
+    <div id="home" className="flex h-screen text-white relative ">
       <div className="md:flex my-24 items-center lg:mx-30 md:mx-20 mx-10">
         <div className="lg:w-[900px] md:w-[500px] text-justify">
           <h1 className="text-white lg:my-5 md:my-2">

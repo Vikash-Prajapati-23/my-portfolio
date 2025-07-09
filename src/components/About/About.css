@@ -60,6 +60,7 @@
   .about-content {
     margin-bottom: 5rem;
   }
+
   .btn-position {
     position: absolute;
     bottom: -10%;
@@ -70,5 +71,9 @@
 @media screen and (max-width: 380px) {
   .about-para::after {
     width: 85%;
+  }
+  
+  .btn-position {
+    left: 35%;
   }
 }

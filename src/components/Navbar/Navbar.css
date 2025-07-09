@@ -1,0 +1,9 @@
+.mobile-links {
+    position: absolute;
+    top: 65%;
+    right: 12%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    transition: .3s ease-in-out;
+}
