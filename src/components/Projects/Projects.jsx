@@ -82,10 +82,11 @@ const Projects = () => {
                   java script(ES6) | React | Redux | Tailwind css | Nodejs |
                   Expressjs | MondoDB | Mongoose
                 </p>
-                <p className="text-sm project_info_border ">
+                <p className="md:text-md text-sm project_info_border ">
+                  <span>In progress |</span>{" "}
                   This github repo is private |
                   <a
-                    href="https://shop-sphere-jade.vercel.app/"
+                    href="https://school-project-gamma-lilac.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -119,19 +120,20 @@ const Projects = () => {
                   java script(ES6) | React | Redux | Tailwind css | Nodejs |
                   Expressjs | MondoDB | Mongoose
                 </p>
-                <p className="md:text-lg text-sm project_info_border">
+                <p className="md:text-md text-sm project_info_border">
+                  <span>In progress |</span>
                   <a
                     href="https://github.com/Vikash-Prajapati-23/ResuMate"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <span>
-                      <i class="fa-brands fa-github cursor-pointer me-2"></i>
+                      <i class="fa-brands fa-github cursor-pointer mx-2"></i>
                     </span>
                   </a>
                   |
                   <a
-                    href="https://shop-sphere-jade.vercel.app/"
+                    href="https://ai-resume-builder-bice-one.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
