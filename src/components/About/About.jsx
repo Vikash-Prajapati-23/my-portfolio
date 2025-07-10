@@ -36,7 +36,7 @@ const About = () => {
         <div className="btn-position text-center border-2 rounded border-amber-600">
           <a
             id="download_btn"
-            href="/Vikash_resume_july_2025.pdf"
+            href="/Vikash_Prajapati_Resume-11th-july-2025.pdf"
             target="_blank"
             rel="noopener noreferrer"
             download="Vikash_Resume.pdf"
