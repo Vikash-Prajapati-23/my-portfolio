@@ -55,7 +55,6 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <div></div>
           </div>
 
           {/* Project - 2 */}
@@ -86,7 +85,7 @@ const Projects = () => {
                   <span>In progress |</span>{" "}
                   This github repo is private |
                   <a
-                    href="https://school-project-gamma-lilac.vercel.app/"
+                    href="https://school-management-system-vikash.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -133,7 +132,7 @@ const Projects = () => {
                   </a>
                   |
                   <a
-                    href="https://ai-resume-builder-bice-one.vercel.app/"
+                    href="https://resumate-ai-resume-builder.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
