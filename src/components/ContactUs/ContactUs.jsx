@@ -25,7 +25,7 @@ function ContactUs() {
         <div className="px-0 md:px-24 lg:px-40 my-10">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
             <div className="cols-span-1 md:order-1 order-2">
-              <form action="https://formsubmit.co/vikashprajapati1095@gmail.com" method="POST" onSubmit={handleSave} className="space-y-5 grid ">
+              <form action="https://formsubmit.co/00890d1d402d1e2086e8140fbd3947ba" method="POST" onSubmit={handleSave} className="space-y-5 grid ">
                 <div className="cols-span-1 flex flex-col md:w-full w-[280px] mx-auto">
                   <label>Your Name</label>
                   <input
