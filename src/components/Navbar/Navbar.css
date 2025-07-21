@@ -1,9 +1,8 @@
 .mobile-links {
-    background-color: #fff;
     color: Black;
     position: absolute;
-    top: 65%;
-    right: 12%;
+    top: 70%;
+    right: 11%;
     font-size: 16px;
     display: flex;
     gap: .5rem;

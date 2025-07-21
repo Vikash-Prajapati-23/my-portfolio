@@ -74,7 +74,7 @@ function ContactUs() {
                 <div className="space-y-5 mt-5">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 flex justify-center items-center bg-blue-300 rounded-full">
-                      <i class="fa-solid fa-envelope text-2xl text-gray-700"></i>
+                      <i className="fa-solid fa-envelope text-2xl text-gray-700"></i>
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold mb-1">Email</h3>
@@ -83,7 +83,7 @@ function ContactUs() {
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 flex justify-center items-center bg-blue-300 rounded-full">
-                      <i class="fa-solid fa-phone text-2xl text-gray-700"></i>
+                      <i className="fa-solid fa-phone text-2xl text-gray-700"></i>
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold mb-1">Phone</h3>

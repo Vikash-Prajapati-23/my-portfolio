@@ -41,7 +41,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                   >
                     <span>
-                      <i class="fa-brands fa-github cursor-pointer me-2"></i>
+                      <i className="fa-brands fa-github cursor-pointer me-2"></i>
                     </span>
                   </a>
                   |
@@ -50,7 +50,7 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="fas fa-external-link-alt ms-2"></i>
+                    <i className="fas fa-external-link-alt ms-2"></i>
                   </a>
                 </p>
               </div>
@@ -89,7 +89,7 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="fas fa-external-link-alt ms-2"></i>
+                    <i className="fas fa-external-link-alt ms-2"></i>
                   </a>
                 </p>
               </div>
@@ -127,7 +127,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                   >
                     <span>
-                      <i class="fa-brands fa-github cursor-pointer mx-2"></i>
+                      <i className="fa-brands fa-github cursor-pointer mx-2"></i>
                     </span>
                   </a>
                   |
@@ -136,7 +136,7 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="fas fa-external-link-alt ms-2"></i>
+                    <i className="fas fa-external-link-alt ms-2"></i>
                   </a>
                 </p>
               </div>

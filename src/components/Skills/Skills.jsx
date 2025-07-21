@@ -12,7 +12,7 @@ const Skills = () => {
           Skills
         </h3>
 
-        <div className="grid lg:grid-cols-8 md:grid-cols-6 grid-cols-4 lg:mx-24 md:mx-16 md:my-10 my-5 flex-wrap md:gap-10 gap-x-10 gap-y-4 md:text-center mx-5">
+        <div className="grid lg:grid-cols-8 md:grid-cols-6 grid-cols-4 lg:mx-24 md:mx-16 md:my-10 my-5 flex-wrap md:gap-10 gap-x-8 gap-y-4 md:text-center mx-5">
           {/* HTML */}
           <div className="">
             <div className="md:h-20 h-12 md:w-20 w-12 border-2 p-2 border-amber-600 rounded flex justify-center items-center">
@@ -24,7 +24,7 @@ const Skills = () => {
           {/* CSS */}
           <div className="">
             <div className="md:h-20 h-12 md:w-20 w-12 border-2 p-2 border-amber-600 rounded flex justify-center items-center">
-              <img src="https://cdn.simpleicons.org/css3/1572B6" alt="CSS3" />
+             <img className="h-[130%]" src="https://img.icons8.com/color/240/css3.png" alt="css3"/>
             </div>
             <div className="text-white text-xs text-center">CSS3</div>
           </div>
@@ -245,7 +245,7 @@ const Skills = () => {
               GitHub Copilot
             </div>
           </div>
-          
+
           {/* Vercel */}
           <div className="">
             <div className="md:h-20 h-12 md:w-20 w-12 border-2 p-2 border-white rounded flex items-center justify-center">
@@ -258,7 +258,7 @@ const Skills = () => {
               Vercel
             </div>
           </div>
-          
+
           {/* Render */}
           <div className="">
             <div className="md:h-20 h-12 md:w-20 w-12 border-2 p-2 border-cyan-400 rounded flex items-center justify-center">

@@ -45,7 +45,7 @@ const Navbar = () => {
         </a>
       </span>
       {mobile ? (
-        <button onClick={() => handleToggle()} className="">
+        <button onClick={() => handleToggle()} className=" ">
           <i
             className={`fa-solid fa-${!isOpen ? "bars" : "xmark"} text-white`}
           ></i>
@@ -67,7 +67,7 @@ const Navbar = () => {
         </div>
       )}
       {isOpen && (
-        <ul className="mobile-links">
+        <ul className="mobile-links bg-white/10 backdrop-blur-md">
           <a
             onClick={() => setIsOpen(false)}
             className="cursor-pointer"
