@@ -104,17 +104,17 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 330px) {
   .project_img {
     height: 300px;
   }
 
   .project-content {
-    width: 300px;
+    width: 290px;
   }
 
   .project_info {
-    width: 300px;
+    width: 290px;
     top: 80%;
     left: 0%;
   }

@@ -5,7 +5,7 @@ import Project_3 from "../../assets/P-3.png";
 
 const Projects = () => {
   return (
-    <div id="projects" className=" text-white">
+    <div id="projects" className=" md:mt-44 mt-32 text-white">
       <div className="project-main">
         <h3 className="text-white md:text-4xl text-2xl text-center font-semibold md:mb-14 mb:8">
           Projects
@@ -24,7 +24,7 @@ const Projects = () => {
                   <span className="md:text-lg text-base ms-2">Shop Sphere</span>
                 </p>
 
-                <p className="md:text-sm text-sm project_info_border">
+                <p className="md:text-sm text-sm md:text-end text-justify project_info_border">
                   Shop Sphere is E-commerce platform where users can browse and
                   buy products. There are features such as cart feature(to add
                   or remove products), wishlist feature, Authenticarion,
@@ -71,7 +71,7 @@ const Projects = () => {
                   </span>
                 </p>
 
-                <p className="md:text-sm text-sm project_info_border">
+                <p className="md:text-sm text-sm md:text-end text-justify project_info_border">
                   A full-stack web application A responsive MERN stack
                   application for managing school operations - includes
                   admission forms, seat booking, teacher/class management, and a
@@ -98,7 +98,7 @@ const Projects = () => {
           </div>
 
           {/* Project - 3 */}
-          <div className=" flex items-center project-content">
+          <div className="flex items-center project-content">
             <div>
               <img className="project_img" src={Project_2} alt="" />
             </div>
@@ -109,7 +109,7 @@ const Projects = () => {
                   <span className="md:text-lg text-base ms-2">Resumate</span>
                 </p>
 
-                <p className="md:text-sm text-sm project_info_border">
+                <p className="md:text-sm text-sm md:text-end text-justify project_info_border">
                   Build your resume in minutes with the power of AI! This smart
                   resume builder uses AI to generate well-structured, job-ready
                   resumes with ease — perfect for students, professionals, and

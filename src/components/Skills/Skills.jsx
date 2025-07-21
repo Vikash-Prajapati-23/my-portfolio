@@ -5,10 +5,10 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="h-screen flex flex-col justify-center items-center"
+      className="h-screen flex flex-col justify-center items-center "
     >
       <div className="">
-        <h3 className="text-white md:text-4xl text-2xl text-center font-semibold md:mb-14 mb:8">
+        <h3 className="text-white md:text-4xl text-2xl text-center font-semibold md:mt-44 mt-40 md:mb-14 mb:8">
           Skills
         </h3>
 
